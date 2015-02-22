@@ -46,7 +46,7 @@ def ipconv(ip,ipclass):
         print('too small for an ip or too big')
         exit()
     
-#findind the position of every dot of the ip given     
+#finding the position of every dot of the ip given     
     p1 = ip.find('.')
     print('in the position',p1,'the first .')
     p2 = ip[p1+1:iplen].find('.')
